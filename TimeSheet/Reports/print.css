@@ -1,0 +1,52 @@
+﻿html,body {
+    margin: 0px auto;
+    font-family: Calibri;
+    font-size: small;
+    background-color: #fff;
+}
+
+.reportgrid {
+    width: 99%;
+    border-collapse: collapse;
+    background: #fff;
+    border: none;
+    font-family: Calibri;
+    font-size: small;
+}
+    .reportgrid th {
+        background-color: #85BDE7;
+        font-weight: bold;
+        border: none;
+        border-bottom: 1px solid #000;
+        padding: 2px;
+    }
+    .reportgrid td {
+        border: none;
+        padding: 1px;
+    }
+.displaygrid {
+    width: 99%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #000;
+    font-family: Calibri,Arial;
+    font-size: 10px;
+}
+    .displaygrid th {
+        background: #c0c0c0;
+        font-weight: bold;
+        text-align: left;
+        border-bottom: 2px solid #000;
+        padding: 2px;
+    }
+    .displaygrid td {
+        border: none;
+        padding: 2px;
+    }
+
+.blacklink
+  {
+	  color: black;
+	  text-decoration: underline;
+	  font-size: 8pt;
+  }
